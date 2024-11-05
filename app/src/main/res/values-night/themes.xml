@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FancyCalculator" parent="Theme.AppCompat">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/lightblack</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="color">@color/red</item>
+    </style>
+</resources>

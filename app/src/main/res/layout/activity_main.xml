@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="5"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="50dp"
+
+            android:layout_gravity="center"
+            android:gravity="right"
+            tools:ignore="RtlHardcoded"
+            android:paddingTop="30dp"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_marginTop="400dp"
+            android:gravity="right"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded">
+
+        </TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/buttonRow">
+
+        <Button
+            android:id="@+id/buttonClear"
+            style="@style/buttonSpecial"
+            android:text="AC"
+            tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize">
+
+        </Button>
+
+        <Button
+            android:id="@+id/buttonDelete"
+            style="@style/buttonSpecial"
+            android:text="DEL"
+            tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize">
+
+        </Button>
+
+        <Button
+            style="@style/buttonOperations"
+            android:text="/"
+            android:textAlignment="textEnd"
+            tools:ignore="HardcodedText,InefficientWeight,VisualLintButtonSize"
+            android:layout_weight="2"
+            android:id="@+id/buttonDivide">
+        </Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/buttonRow">
+        <Button
+            style="@style/buttonNum"
+            android:text="7"
+            tools:ignore="HardcodedText,VisualLintButtonSize"
+            android:id="@+id/button7">
+
+        </Button>
+        <Button
+            style="@style/buttonNum"
+            android:text="8"
+            tools:ignore="HardcodedText,VisualLintButtonSize"
+            android:id="@+id/button8">
+
+        </Button>
+        <Button
+            style="@style/buttonNum"
+            android:text="9"
+            tools:ignore="HardcodedText,VisualLintButtonSize"
+            android:id="@+id/button9">
+
+        </Button>
+        <Button
+            style="@style/buttonOperations"
+            android:text="X"
+            tools:ignore="HardcodedText,VisualLintButtonSize"
+            android:id="@+id/buttonMultiply">
+
+        </Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/buttonRow">
+        <Button
+            style="@style/buttonNum"
+            android:text="4"
+            tools:ignore="HardcodedText,VisualLintButtonSize"
+            android:id="@+id/button4">
+
+        </Button>
+        <Button
+            style="@style/buttonNum"
+            android:text="5"
+            tools:ignore="HardcodedText,VisualLintButtonSize"
+            android:id="@+id/button5">
+
+        </Button>
+        <Button
+            style="@style/buttonNum"
+            android:text="6"
+            tools:ignore="HardcodedText,VisualLintButtonSize"
+            android:id="@+id/button6">
+
+        </Button>
+        <Button
+            style="@style/buttonOperations"
+            android:text="-"
+            tools:ignore="HardcodedText,VisualLintButtonSize"
+            android:id="@+id/buttonSubtract">
+
+        </Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/buttonRow">
+        <Button
+            style="@style/buttonNum"
+            android:text="1"
+            tools:ignore="HardcodedText,VisualLintButtonSize"
+            android:id="@+id/button1">
+
+        </Button>
+        <Button
+            style="@style/buttonNum"
+            android:text="2"
+            tools:ignore="HardcodedText,VisualLintButtonSize"
+            android:id="@+id/button2">
+
+        </Button>
+        <Button
+            style="@style/buttonNum"
+            android:text="3"
+            tools:ignore="HardcodedText,VisualLintButtonSize"
+            android:id="@+id/button3">
+
+        </Button>
+        <Button
+            style="@style/buttonOperations"
+            android:text="+"
+            tools:ignore="HardcodedText,VisualLintButtonSize"
+            android:id="@+id/buttonAdd">
+
+        </Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/buttonRow">
+        <Button
+            style="@style/buttonNum"
+            android:text="."
+            tools:ignore="HardcodedText,VisualLintButtonSize"
+            android:id="@+id/buttonDot">
+
+        </Button>
+        <Button
+            style="@style/buttonNum"
+            android:text="0"
+            tools:ignore="HardcodedText,VisualLintButtonSize"
+            android:id="@+id/button0">
+
+        </Button>
+
+        <Button
+            android:id="@+id/buttonEqual"
+            style="@style/buttonNum"
+            android:layout_weight="2"
+            android:background="@color/orange"
+            android:text="="
+            tools:ignore="HardcodedText,InefficientWeight,TextContrastCheck,VisualLintButtonSize">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
